@@ -1,0 +1,44 @@
+@media (max-width:1000px){
+    .shape::before{
+        display: none;
+    }
+}
+
+@media (max-width:993px){
+    .banner{
+        padding-top: 10%;
+    }
+
+    .about-content{
+        padding: 20px;
+    }
+}
+
+@media (max-width:710px){
+    .banner{
+        padding-top: 20%;
+    }
+}
+
+@media (max-width:450px){
+    .banner{
+        padding-top: 30%;
+    }
+}
+
+@media (max-width:975px){
+    .service .service-content{
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 520px){
+    .form-group{
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .form-control-placeholder{
+        left: -10px;
+    }
+}

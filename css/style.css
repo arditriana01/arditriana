@@ -1,0 +1,385 @@
+/* I Komang Ardi Triana */
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 5px;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(112, 112, 112); 
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.section-padding{
+    padding: 100px 0px;
+}
+
+.section-intro{
+    padding-bottom: 50px;
+}
+
+.section-intro h2{
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.line{
+    width: 20%;
+    display: inline-block;
+}
+
+.line-section{
+    width: 50%;
+    background: #2a2a2a;
+}
+
+.banner .btn,
+.service .btn,
+.portfolio .btn,
+.contact-content .btn{
+    cursor: pointer;
+    background: transparent;
+    color: #222222;
+    border: 1px solid #2a2a2a;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[contenteditable].form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* ================== Navbar =================== */
+.header .navbar{
+    box-shadow: 0px 1px 13px 0px rgba(14, 30, 112, 0.1);
+}
+
+.shape{
+    position: relative;
+}
+
+.shape::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 404px;
+    left: 0;
+    background-size: cover;
+    background: url(../image/home/shape.png)center center no-repeat;
+    width: 100%;
+    height: 710px;
+    z-index: 0;
+}
+
+.header .navbar .nav .nav-item{
+    margin-right: 20px;
+}
+
+.header .navbar .nav .nav-item .nav-link{
+    color: #2a2a2a;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.header .navbar {
+    color: #2a2a2a;
+}
+
+.header .navbar-brand{
+    font-family: 'Lekton', sans-serif;
+    font-size: 35px;
+    color: black;
+    text-transform: uppercase;
+}
+/* ================== Navbar =================== */
+
+
+/* ================== Banner =================== */
+.banner{
+    background: antiquewhite;
+    padding-top: 10px;
+}
+
+.banner h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 38px;
+}
+
+.banner h2{
+    margin-bottom: 10px;
+}
+/* ================== Banner =================== */
+
+
+/* ================== About =================== */
+.about-img img{
+    border-bottom: 5px solid antiquewhite;
+    border-radius: 20px;
+}
+
+.about-content{
+    padding: 80px;
+}
+
+.about-content h2{
+    color: #ffa5a5;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.line-about{
+    background: #ffa5a5;
+}
+
+.about-bottom{
+    transform: translate(42px, -30px);
+}
+/* ================== About =================== */
+
+
+/* ================== Service =================== */
+.service{
+    background: antiquewhite;
+    padding-bottom: 70px;
+    margin-top: 7%;
+}
+
+.line-service{
+    background: #2a2a2a;
+}
+
+.service .service-content{
+    border: 1px solid;
+    padding: 20px 52px 12px 18px;
+    transform: translateX(60px);
+    position: relative;
+    z-index: 1;
+}
+
+.shape-service{
+    position: relative;
+}
+
+.shape-service::before{
+    content: "";
+    position: absolute;
+    top: -387px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+    background: url(../image/home/left.png) center center no-repeat;
+}
+
+.service .service-image img{
+    border: 25px solid #fff;
+}
+/* ================== Service =================== */
+
+
+/* ================== Portfolio =================== */
+.modal-body h2{
+    font-size: 50px;
+}
+
+.portfolio .section-intro h2{
+    border-style: double;
+    padding: 20px;
+}
+
+.portfolio .portfolio-content{
+    border: 1px solid;
+    z-index: 1;
+    position: relative;
+    margin-left: -12px;
+    margin-right: -12px;
+    top: -30px;
+    padding: 60px;
+}
+
+.portfolio .btn:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: all 0.5s;
+
+}
+/* ================== Portfolio =================== */
+
+
+/* ================== Contact =================== */
+.contact{
+    background: antiquewhite;
+    padding-bottom: 25px;
+    margin-top: 7%;
+}
+
+.contact .contact-content h3{
+    color: #7493d0;
+}
+
+.contact .contact-content p{
+    padding-top: 30px;
+}
+
+.contact .contact-icon span i{
+    margin-right: 20px;
+    color: #7d7d7d;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.contact .contact-icon span i:hover{
+    color: #7493d0;
+}
+
+.contact-bottom hr{
+    width: 50%;
+}
+
+.contact-bottom p{
+    font-size: 13px;
+}
+
+.shape-contact{
+    position: relative;
+}
+
+.shape-contact::before{
+    content: "";
+    position: absolute;
+    top: -387px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+    background: url(../image/home/shape5.png) center center no-repeat;
+}
+
+.btn-contact{
+    padding: 18px;
+}
+/* ================== Contact =================== */
+/* ================== Contact =================== */
+.form{
+    padding-top: 155px;
+}
+
+.form .contact-card{
+    border: 5px solid;
+    padding: 40px;
+}
+
+.form .text-contact{
+    background: antiquewhite;
+    z-index: 1;
+    position: relative;
+    top: 27px;
+    border: 5px solid;
+}
+
+.form .text-contact h1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.contact-card .form-group .form-control{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: unset;
+    background: transparent;
+}
+
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+.form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    left: 10px;
+}
+  
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+}
+
+
+.contact-card p
+{
+    padding: 20px;
+}
+
+.contact-bottom .btn{
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    z-index: 1;
+    position: relative;
+    top: 70px;
+    text-transform: uppercase;
+    background: #2a2a2a;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: unset;
+}
+
+.maps{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.contact-maps iframe{
+    width: 100%;
+}
+/* ================== Contact =================== */
+/* ====================================================================== */
