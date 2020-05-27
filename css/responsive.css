@@ -18,17 +18,59 @@
     .banner{
         padding-top: 20%;
     }
+    .img-banner{
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+}
+
+@media (max-width:770px){
+ 
+.about-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.portfolio .margin-img{
+    margin-top: 0px;
+}
+
+.portfolio .margin-img2{
+    margin-top: -0px;
+}
 }
 
 @media (max-width:450px){
     .banner{
         padding-top: 30%;
     }
+    .service p{
+        text-align: justify;
+    }
+}
+
+@media(max-width: 400px){
+    .section-intro{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }
 
 @media (max-width:975px){
     .service .service-content{
+        padding-right: 20px;
+        padding-left: 20px;
         transform: translateX(0);
+    }
+}
+
+@media (max-width: 570px){
+    .service .service-content{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .about-content p{
+        text-align: justify;
     }
 }
 
