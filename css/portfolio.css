@@ -8,6 +8,10 @@ body{
     background: #fff;
 }
 
+.bg-colored{
+    background: antiquewhite;
+}
+
 .shape::before{
     display: none;
 }
@@ -92,6 +96,14 @@ BUTTON
     font-weight: 600;
     font-size: 17px;
     transition: 0.3s ease;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.btn-modern:hover{
+    background-color: black;
+    color: white;
 }
 
 .btn-modern i{
@@ -265,10 +277,6 @@ RESPONSIVE
 }
 
 /* ================= PROCESS ================= */
-
-.bg-soft{
-    background: #fafafa;
-}
 
 .process-wrapper{
     display: flex;
